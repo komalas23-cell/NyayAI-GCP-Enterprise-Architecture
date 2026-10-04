@@ -58,7 +58,7 @@ graph TD
             Audit["📋 Cloud Logging & Audit Logs (Immutable Trails)"]
         end
         class GovLayer securityStyle;
-        ```
+  
 
         %% Data Flow Connections within Perimeter
         ProcessingLayer -- "3. Clean Extracted Legal Text" --> GenAILayer
