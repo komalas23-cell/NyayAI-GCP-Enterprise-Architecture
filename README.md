@@ -1,4 +1,4 @@
-# NyayAI-GCP-Enterprise-Architecture
+```mermaid
 graph TD
     %% Styling Definitions
     classDef userStyle fill:#f9f9f9,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
@@ -58,6 +58,7 @@ graph TD
             Audit["📋 Cloud Logging & Audit Logs (Immutable Trails)"]
         end
         class GovLayer securityStyle;
+        ```
 
         %% Data Flow Connections within Perimeter
         ProcessingLayer -- "3. Clean Extracted Legal Text" --> GenAILayer
